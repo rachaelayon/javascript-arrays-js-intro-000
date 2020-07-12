@@ -1,12 +1,11 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
-function addElementToEndOfArray() {
-  var chocolateBars.push("Milky Way")
-  console.log("chocolateBars");
+function addElementToEndOfArray(array, element) {
+  return[element,...array];
 }
-function destructivelyAddElementToBeginningOfArray() {
-  var chocolateBars.push("Milky Way")
-  console.log("chocolateBars");
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element);
+  return array;
 }
 function accessElementInArray() {
   var bio = "The best candy";
