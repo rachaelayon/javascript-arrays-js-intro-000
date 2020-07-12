@@ -7,7 +7,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element);
   return array;
 }
-function accessElementInArray() {
-  var bio = "The best candy";
-  console.log(chocolateBars[4] + bio)
+function addElementToBeginningOfArray(array, element) {
+  return(array,...element)
 }
